@@ -14,9 +14,9 @@ APIs: OpenAI
 ## **Installation**
 If needed, install [Node.js](https://nodejs.org/en/). 
 
-Clone or fork the [repo](https://github.com/lunaxlam/luna-lam-fun-with-ai-app.git):
+Clone or fork the [repo](https://github.com/lunaxlam/luna-lam-hello-ai-app):
 ```
-https://github.com/lunaxlam/luna-lam-fun-with-ai-app.git
+https://github.com/lunaxlam/luna-lam-hello-ai-app
 ```
 
 In the project directory, save your OpenAI API key in a file called .env in the following format:
