@@ -1,19 +1,4 @@
 {
   "responses": [
-    {
-      "prompt": "Write me a tagline for a coffee shop",
-      "text": "\n\n\"A place to gather, a place to work, and a place to relax.\"",
-      "id": 1
-    },
-    {
-      "prompt": "Generate three book titles about whales",
-      "text": "\n\n1) The Whale Rider: A Tale of the Sea\n2) The Whale: A Natural History\n3) The Whale Watcher's Guide to the North Atlantic",
-      "id": 2
-    },
-    {
-      "prompt": "Tell me a funny joke",
-      "text": "\n\nWhy did the chicken cross the road?\n\nTo get to the other side!",
-      "id": 3
-    }
   ]
 }
