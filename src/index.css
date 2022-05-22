@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+/* General Styles */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,39 +22,49 @@ body {
   border-radius: 5px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 16px;
 }
 
-.task {
+/* Link Styles */
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Response Table Styles */
+
+th {
+  padding: 10px;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.response {
   background: #f4f4f4;
   margin: 5px;
   padding: 10px 20px;
-  cursor: pointer;
+  align-items: left;
 }
 
-.task.reminder {
-  border-left: 5px solid green;
-}
-
-.task h3 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+/* Form Styles */
 
 form {
   margin-bottom: 40px;
 }
 
-.form-control, .responses-control {
-  margin: 20px 0;
+.form-control {
+  margin: 10px 0;
 }
 
 .form-control label {
+  font-size: 20px;
   display: block;
 }
 
@@ -61,30 +73,12 @@ form {
   height: 40px;
   margin: 5px;
   padding: 3px 7px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.form-control-check {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.form-control-check label {
-  flex: 1;
-}
-
-.form-control-check input {
-  flex: 2;
-  height: 20px;
-}
-
-#form-textarea {
+textarea {
   height: 150px;
   border: 1px solid darkgray;
-}
-
-footer {
-  margin-top: 30px;
-  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
 }

@@ -1,4 +1,4 @@
-# **Fun with AI**
+# **Hello AI**
 A single page application (SPA) by [Luna Lam](https://github.com/lunaxlam)
 
 ## **Overview**
@@ -10,7 +10,7 @@ APIs: [OpenAI](https://openai.com/api/)
 *This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
 
 ## **Installation**
-To run *Fun with Ai*:
+To run *Hello AI*:
 
 Install [Node.js](https://nodejs.org/en/). 
 
@@ -33,4 +33,4 @@ In your browser, navigate to [http://localhost:3000](http://localhost:3000):
 ```
 http://localhost:3000
 ```
-You can now run *Fun with AI*. Enjoy!
+You can now run *Hello AI*. Enjoy!
