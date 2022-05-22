@@ -2,9 +2,11 @@
 A single page application (SPA) by [Luna Lam](https://github.com/lunaxlam)
 
 ## **Overview**
+*Hello AI* utilizes [OpenAI](https://openai.com/api/)'s powerful GPT-3 AI model to process a plain text prompt and return a human-like text response. User queries are automatically saved in [db-json](https://www.npmjs.com/package/db-json).
 
 ## **Tech Stack**
 Frontend: CSS 3, HTML5, JavaScript, ReactJS <br />
+Backend: db-json, JSON Server<br />
 APIs: [OpenAI](https://openai.com/api/)
 
 *This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
