@@ -1,18 +1,18 @@
 import { useState } from 'react'
 
-const EnterPrompt = ({label, onEnter}) => {
+const EnterPrompt = ({label, getResponse}) => {
 
-  const [enteredText, setText] = useState('')
+  const [text, setText] = useState('')
 
   const onSubmit = (e) => {
     e.preventDefault()
 
-    if(!enteredText) {
+    if(!text) {
       alert('You must enter a prompt. Try again!')
       return
     }
 
-    onEnter(enteredText)
+    getResponse(text)
 
     setText('')
   }
@@ -23,7 +23,7 @@ const EnterPrompt = ({label, onEnter}) => {
         <label>{label}</label>
         <textarea name='enter-prompt' 
           placeholder='Example: Write a tagline for an ice cream shop'
-          value={enteredText} 
+          value={text} 
           onChange={(e) => setText(e.target.value)}>
         </textarea>
         <input type='submit' value='Submit' />  
