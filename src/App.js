@@ -18,8 +18,10 @@ function App() {
       });
   }, []);
 
-  // Make API call and update piece of state on the client-side
+  // Make API call, store in db, and update piece of state on the client-side
   const handleResponse = (prompt) => {
+
+    // Required endpoint parameters
     const data = {
       prompt: prompt,
       temperature: 0.5,
@@ -29,6 +31,7 @@ function App() {
       presence_penalty: 0.0,
       };
       
+      // OpenAI API call
       fetch('https://api.openai.com/v1/engines/text-curie-001/completions', {
       method: 'POST',
       headers: {
@@ -43,6 +46,7 @@ function App() {
         const response = data["choices"][0]["text"];
         const newPromptResponse = {prompt: prompt, text: response};
 
+        // Send data to store in server
         return fetch('http://localhost:5000/responses', {
           method: 'POST',
           headers: {
@@ -52,7 +56,9 @@ function App() {
         })
           .then((res) => res.json())
           .then((savedPromptResponse) => {
-            setResponse([savedPromptResponse, ...responses ]);
+
+            // Update piece of state
+            setResponse([savedPromptResponse, ...responses]);
           })
       })
     }     
