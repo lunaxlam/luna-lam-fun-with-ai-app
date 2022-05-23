@@ -24,15 +24,16 @@ In the project directory, save your OpenAI API key in a file called .env in the 
 REACT_APP_OPENAI_SECRET=YOUR_OPENAI_API_KEY_HERE
 ```
 
-Run the application:
+Run the server:
+```
+npm run server
+```
+
+In a second terminal window, run the application:
 ```
 npm start
 ```
 
-In a separate terminal, run the server:
-```
-npm run server
-```
 
 In your browser, navigate to [http://localhost:3000](http://localhost:3000):
 ```

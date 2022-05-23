@@ -1,4 +1,9 @@
 {
   "responses": [
+    {
+      "prompt": "Write a tag line for an ice cream shop",
+      "text": "\n\nIce cream with a twist!",
+      "id": 1
+    }
   ]
 }
