@@ -29,6 +29,11 @@ Run the application:
 npm start
 ```
 
+In a separate terminal, run the server:
+```
+npm run server
+```
+
 In your browser, navigate to [http://localhost:3000](http://localhost:3000):
 ```
 http://localhost:3000
