@@ -1,9 +1,14 @@
 {
   "responses": [
     {
-      "prompt": "Write a tag line for an ice cream shop",
-      "text": "\n\nIce cream with a twist!",
+      "prompt": "Write a tagline for an ice cream shop",
+      "text": "\n\n\"Where the sweetest things come to life.\"",
       "id": 1
+    },
+    {
+      "prompt": "Write a poem about a happy dog who loves hats",
+      "text": "\n\nMy happy dog loves hats,\nAnd I love that he loves them too!\nHe's always happy when he sees me put on a new hat,\nAnd he can't wait to show it off to everyone!\nHe loves to go for walks,\nAnd he loves to play with his friends,",
+      "id": 2
     }
   ]
 }
